@@ -4,7 +4,7 @@ This project was created by Jay Siri and Akshay Gowrishankar for Caltech's CS121
 
 We implemented a basic version of a business locator/recommendation system using the Yelp Dataset, which is publicly available at https://www.yelp.com/dataset. 
 
-We pre-processed the data slightly using our `yelp-processing.ipynb` script, and the final dataset we used can be found [here](https://drive.google.com/drive/folders/1W_R5_E5G5uUycE05aysBdS7ZFIuD5HOK?usp=sharing).
+We pre-processed the data slightly using our `yelp_preprocessing.ipynb` script, and the final dataset we used can be found [here](https://drive.google.com/drive/folders/1W_R5_E5G5uUycE05aysBdS7ZFIuD5HOK?usp=sharing).
 
 
 ## Run the app
@@ -48,6 +48,10 @@ Enter an option: a
 What would you like to eat?: taco
 Enter longitude: -118.1253
 Enter latitude: 34.1377
+~~~
+
+After a while, the output should be be:
+~~~
 ('El Taco Grande', '1096 Casitas Pass Rd')
 ('Albertsons', '1018 Casitas Pass Rd')
 ('Taco Bell', '1045 Casitas Pass Road')
