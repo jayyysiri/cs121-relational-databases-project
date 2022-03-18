@@ -115,9 +115,3 @@ SELECT authenticate('alex', 'goodbye');    -- Should return 0 (false)
 SELECT authenticate('alex', 'hello');      -- Should return 1 (true)
 SELECT authenticate('alex', 'HELLO');      -- Should return 0 (false)
 SELECT authenticate('bowie', 'goodbye');   -- Should return 1 (true)
-
-
-
--- [Problem 1d]
--- Optional: Create a procedure sp_change_password to generate a new salt and change the given
--- user's password to the given password (after salting and hashing)
